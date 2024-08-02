@@ -1,0 +1,30 @@
+
+body {
+    background-color: var(--sfondo);
+    margin:0;
+    color: var(--colore-testo);
+    font-size:1rem;
+    
+}
+
+h1 {
+    margin-top:0;
+    padding-top:5rem;
+}
+
+
+.contenuto {
+    padding: 3rem;
+    padding-top: 30vh;
+    background: url("../media/alto-sx-tr.svg") no-repeat;
+    background-size: 70vh;
+    background-position: top left;
+}
+
+.chiusura {
+    margin:0;
+    height: 30vh;
+    background: url("../media/basso-dx-tr.svg") no-repeat;
+    background-size: 30vh;
+    background-position: bottom right;
+}

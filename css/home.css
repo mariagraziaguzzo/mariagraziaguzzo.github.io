@@ -1,0 +1,208 @@
+body {
+    background-color: var(--sfondo);
+    margin:0;
+    color: var(--colore-testo);
+    font-size:1.25rem;
+    
+}
+
+.hero {
+    background: url("../media/alto-sx-tr.svg") no-repeat;
+    height: 100vh;
+    background-size: 70vh;
+    background-position: top left;
+    
+}
+
+.hero .testo {
+
+    font-family: sans-serif;
+    position: relative;
+    top:45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-inline: 2rem;
+}
+
+.scrivo-cose {
+    padding:2rem;
+    padding-inline: 1.5rem;
+    }
+
+
+.dialogo {
+    font-style: italic;
+    
+    list-style-type: none;
+}
+
+.tipo-caratteristica {
+    color: var(--colore-accessori);
+    font-weight:bold;
+}
+
+
+
+.collaborazioni {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.collaborazioni ul {
+        list-style-type: none;
+}
+
+.argomento {
+    font-style:italic;
+}
+
+.lista-e-scheda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:5rem;
+    justify-content: center;
+    padding-inline: 1.5rem;
+}
+
+.lista-e-scheda img {
+    max-width: 15rem;
+    height: 100%;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+    left   var(--_i,0%) top    var(--_g),
+    bottom var(--_i,0%) left   var(--_g),
+    top    var(--_i,0%) right  var(--_g),
+    right  var(--_i,0%) bottom var(--_g);
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale();
+  transition: .3s linear;
+  cursor: pointer;
+}
+.lista-e-scheda img:hover {
+  --_i: 10%;
+  filter: grayscale(0);
+}
+
+.lista-e-scheda ul {
+    padding-left:0;
+}
+
+.lista-e-scheda li {
+
+    list-style:none;
+    display: flex;
+    align-items:  center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+
+}
+
+.lista-e-scheda li > span {
+    margin-right:0.5rem;
+}
+
+.lista-e-scheda li:before {
+    content: ' ';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+
+}
+
+.lista-e-scheda #classe:before {
+    background-image: url(../media/stabbed-note.svg); 
+} 
+
+.lista-e-scheda #livello:before {
+    background-image: url(../media/laurel-crown.svg); 
+} 
+.lista-e-scheda #attacco:before {
+    background-image: url(../media/spiked-bat.svg); 
+} 
+.lista-e-scheda #talento:before {
+    background-image: url(../media/sherlock-holmes.svg); 
+} 
+.lista-e-scheda #qualita:before {
+    background-image: url(../media/pointy-hat.svg); 
+} 
+.lista-e-scheda #velocita:before {
+    background-image: url(../media/keyboard.svg); 
+} 
+
+.lista-e-scheda #oggetti:before {
+    background-image: url(../media/backpack.svg); 
+} 
+
+.collaborazioni ul li {
+    margin-bottom: 2rem;
+
+}
+
+.icone-social {
+    display:flex;
+    gap:1rem;
+}
+
+.icone-social img {
+    max-width: 32px;
+
+    
+}
+
+.note-footer {
+    font-size: 0.75rem;
+}
+
+@media (min-height: 500px) and (min-width: 1024px) {
+    body {
+        font-size: 1.5rem;
+    }
+    .hero {
+    background: url("../media/alto-sx-tr.svg") no-repeat;
+    height: 100vh;
+    background-size: 70vw;
+    background-position: top left;
+    }   
+    
+    .scheda {
+    background: url("../media/basso-dx-tr.svg") no-repeat;
+    background-position: right bottom;
+    padding:2rem;
+    background-size: 40vw;
+    }
+    
+    .scrivo-cose {
+    padding:2rem;
+    padding-inline: 15rem;
+
+    }
+    .lista-e-scheda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:5rem;
+    justify-content: center;
+    padding-inline: 15rem;
+}
+.lista-e-scheda img {
+    max-width: 20rem;
+}
+
+.lista-e-scheda li {
+
+    list-style:none;
+    display: flex;
+    align-items:  center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    gap: 0.5rem;
+
+}
+
+}
+
