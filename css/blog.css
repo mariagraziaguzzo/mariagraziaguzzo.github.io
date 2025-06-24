@@ -1,0 +1,22 @@
+body {
+  background-color: var(--sfondo);
+  margin: 3em;
+  font-family: sans-serif;
+  color: var(--colore-testo)
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1,75rem;
+}
+
+strong {
+  color: var(--colore-accessori)
+}
+
+a {
+  font-weight: bold;
+}
