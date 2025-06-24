@@ -5,6 +5,12 @@ body {
   color: var(--colore-testo)
 }
 
+article {
+  max-width: 768px;
+  margin-top:10em !important;
+  margin: auto;
+  
+}
 h1 {
   font-size: 2rem;
 }
